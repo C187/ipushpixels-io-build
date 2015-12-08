@@ -1,0 +1,11 @@
+/****** 
+Style sheet for ipushpixels.io
+------------------------------------------------*/
+
+* {
+
+}
+
+h1, h2, h3, p {
+	font-family: "soleil",sans-serif;
+}
