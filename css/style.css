@@ -42,6 +42,15 @@ h1 > span {
 	color: #dd917a;
 }
 
+a {
+	color: #dd917a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e8706a;
+}
+
 .hero-img {
 	background: url("../img/hero-pic.jpg") center top no-repeat ;
 	width: 50%;
