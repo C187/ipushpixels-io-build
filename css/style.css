@@ -52,7 +52,7 @@ a:hover {
 }
 
 .hero-img {
-	background: url("../img/hero-pic.jpg") center top no-repeat;
+	background: #342a28 url("../img/hero-pic.jpg") center top no-repeat;
 	background-size: auto 100%;
 	width: 50%;
 	float: left;
@@ -136,7 +136,15 @@ Media Queries
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 992px) {
+
+	h1 {
+		font-size: 1.875em;
+	}
+
+	p {
+		font-size: 1.250em;
+	}
 
 	.hero-img {
 		width: 50%;
@@ -145,5 +153,9 @@ Media Queries
 
 	.intro {
 		width: 50%;
+	}
+
+	.intro > div {
+		padding: 7.500em 6.250em 0;
 	}
 }
