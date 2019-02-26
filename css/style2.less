@@ -30,3 +30,30 @@ p {
   font-family: @font--content;
   font-weight: 400;
 }
+
+.flex-mixin() {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-c-mixin() {
+  flex-direction: column;
+}
+
+.flex-r-mixin() {
+  flex-direction: row;
+}
+
+
+
+header {
+  .flex-mixin();
+  .flex-c-mixin();
+  nav {
+    ul {
+      li {
+        font-size: 2em;
+      }
+    }
+  }
+}
